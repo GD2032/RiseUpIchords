@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.luisgabriel.riseupichordsproject"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.luisgabriel.riseupichordsproject"
