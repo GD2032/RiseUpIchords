@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MusicasFragment">
+    tools:context=".MusicasFragment"
+    android:background="@color/dark_blue">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -11,5 +12,17 @@
         android:layout_height="match_parent"
         android:text="Musicas"
         android:gravity="center"/>
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_topbar"
+        android:elevation="20dp"
+        />
 
 </FrameLayout>
