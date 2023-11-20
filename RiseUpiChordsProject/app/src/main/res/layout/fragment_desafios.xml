@@ -8,7 +8,7 @@
     <!--COMEÇO DOS BOTÃO SUPERIORES -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_desafios_desafios"
-        android:text="Desafios"
+        android:text="@string/button_desafios_desafios"
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:layout_width="149dp"
@@ -20,12 +20,12 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_conquistas_desafios"
-        android:text="Conquistas"
+        android:text="@string/button_conquistas_desafios"
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:layout_width="180dp"
         android:layout_height="30dp"
-        android:layout_marginLeft="183dp"
+        android:layout_marginStart="183dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/button2_desafios"
         />
@@ -35,8 +35,6 @@
         android:id="@+id/rectangle_Desafios"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:background="@drawable/card_desafios"
         />
 
@@ -44,11 +42,9 @@
         android:id="@+id/txtTittle_desafios"
         android:layout_width="345.31dp"
         android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
         android:layout_marginTop="80dp"
         android:layout_marginStart="16dp"
-        android:text="Novembro"
+        android:text="@string/novembro_desafios"
         android:textStyle="bold"
         android:textAppearance="@style/novembro_desafios"
         android:gravity="top"
@@ -60,7 +56,7 @@
         android:layout_height="73dp"
         android:layout_marginTop="127dp"
         android:layout_marginStart="16dp"
-        android:text="Complete 30 desafios no mês de novembro para ganhar pontos no ranking e um emblema especial!"
+        android:text="@string/txt_principal_desafios"
         android:textAppearance="@style/txt_Desafios_Desafios"
         android:gravity="top"
         />
@@ -73,9 +69,7 @@
         android:id="@+id/progressBar1_Desafios"
         android:layout_width="347dp"
         android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="240dp"
         android:background="@drawable/progressbar1_desafios"/>
 
@@ -83,9 +77,7 @@
         android:id="@+id/progressBar2_Desafios"
         android:layout_width="63dp"
         android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="240dp"
         android:background="@drawable/progressbar2_desafios"/>
 
@@ -93,28 +85,28 @@
         android:id="@+id/progressBar3_Desafios"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="317dp"
+        android:layout_marginStart="317dp"
         android:layout_marginTop="231dp"
         android:elevation="15dp"
-        android:src="@drawable/progressbar3_desafios"/>
+        android:src="@drawable/progressbar3_desafios"
+        android:contentDescription="@string/vetorestrela_acess_desafios"/>
 
     <ImageView
         android:id="@+id/progressBar4_Desafios"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="322dp"
+        android:layout_marginStart="322dp"
         android:layout_marginTop="231dp"
         android:elevation="20dp"
-        android:src="@drawable/progressbar4_desafios"/>
+        android:src="@drawable/progressbar4_desafios"
+        android:contentDescription="@string/vetorestrela_acess_desafios" />
 
     <TextView
         android:id="@+id/progressBar5_Desafios"
         android:layout_width="345.31dp"
         android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="240dp"
-        android:text="6/30"
+        android:text="@string/txt_6_30_desafios"
         android:textAppearance="@style/progressBar5_Desafios"
         android:gravity="center_horizontal|center_vertical"
         />
@@ -127,7 +119,6 @@
         android:id="@+id/topBar_Desafios"
         android:layout_width="match_parent"
         android:layout_height="62dp"
-        android:layout_alignParentLeft="true"
         android:background="@drawable/bg_topbar"
         />
     <!--FIM DA TOP BAR DESAFIOS-->
@@ -137,10 +128,9 @@
         android:id="@+id/txtDesafiosDoDia_Desafios"
         android:layout_width="328dp"
         android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="320dp"
         android:layout_marginStart="16dp"
-        android:text="Desafios do dia"
+        android:text="@string/desafios_do_dia_desafios"
         android:textAppearance="@style/txt_Desafios_DesafiosDoDia"
         android:gravity="top"
         />
@@ -165,13 +155,13 @@
         android:layout_marginTop="398dp"
         android:layout_marginStart="42dp"
         android:layout_marginEnd="298dp"
-        />
+        android:contentDescription="@string/vetorestrela_acess_desafios" />
 
     <View
         android:id="@+id/progressBar1_Card2_Desafios"
         android:layout_width="269dp"
         android:layout_height="12dp"
-        android:layout_marginLeft="87dp"
+        android:layout_marginStart="87dp"
         android:layout_marginTop="418dp"
         android:background="@drawable/progressbar1_card2_desafios"
         android:elevation="15dp"
@@ -181,9 +171,9 @@
         android:layout_width="209dp"
         android:layout_height="20dp"
         android:layout_marginTop="393dp"
-        android:layout_marginRight="98dp"
-        android:layout_marginLeft="87dp"
-        android:text="Consiga 5 estrelas na pratica"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="87dp"
+        android:text="@string/consiga_5_estrelas_na_pratica_desafios"
         android:textAppearance="@style/progressBar1_Card2_Desafios"
         android:gravity="center_vertical|top"
         />
@@ -192,12 +182,11 @@
         android:id="@+id/txt2_ProgressBar1_Card2_Desafios"
         android:layout_width="23dp"
         android:layout_height="20dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="393dp"
-        android:layout_marginRight="240dp"
-        android:layout_marginLeft="333dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginStart="333dp"
         android:gravity="center_vertical"
-        android:text="0/2"
+        android:text="@string/txt_0_2_desafios"
         android:textAppearance="@style/txt2_ProgressBar1_Card2_Desafios"/>
     <!--FIM DA LINHA1 CARD2-->
 
@@ -210,13 +199,13 @@
         android:layout_marginTop="458dp"
         android:layout_marginStart="42dp"
         android:layout_marginEnd="298dp"
-        />
+        android:contentDescription="@string/vetordesafioconcluido_desafios" />
 
     <View
         android:id="@+id/progressBar2_Card2_Desafios"
         android:layout_width="269dp"
         android:layout_height="12dp"
-        android:layout_marginLeft="87dp"
+        android:layout_marginStart="87dp"
         android:layout_marginTop="478dp"
         android:background="@drawable/progressbar2_card2_desafios"
         android:elevation="15dp"
@@ -226,9 +215,9 @@
         android:layout_width="209dp"
         android:layout_height="20dp"
         android:layout_marginTop="453dp"
-        android:layout_marginRight="98dp"
-        android:layout_marginLeft="87dp"
-        android:text="Complete um nivel"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="87dp"
+        android:text="@string/complete_um_nivel_desafios"
         android:textAppearance="@style/progressBar1_Card2_Desafios"
         android:gravity="center_vertical|top"
         />
@@ -238,17 +227,17 @@
         android:layout_width="23dp"
         android:layout_height="20dp"
         android:layout_marginTop="453dp"
-        android:layout_marginRight="240dp"
-        android:layout_marginLeft="333dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginStart="333dp"
         android:gravity="center_vertical"
-        android:text="1/2"
+        android:text="@string/txt_1_2_desafios"
         android:textAppearance="@style/txt2_ProgressBar1_Card2_Desafios"/>
 
     <View
         android:id="@+id/preenchimento1_card2_desafios"
         android:layout_width="130.2dp"
         android:layout_height="12dp"
-        android:layout_marginLeft="87dp"
+        android:layout_marginStart="87dp"
         android:layout_marginTop="478dp"
         android:background="@drawable/progressbar3_card2_desafios"
         android:elevation="15dp"
@@ -265,13 +254,13 @@
         android:layout_marginTop="520dp"
         android:layout_marginStart="42dp"
         android:layout_marginEnd="298dp"
-        />
+        android:contentDescription="@string/vetorcdmusica_acess_desafios" />
 
     <View
         android:id="@+id/progressBar3_Card2_Desafios"
         android:layout_width="269dp"
         android:layout_height="12dp"
-        android:layout_marginLeft="87dp"
+        android:layout_marginStart="87dp"
         android:layout_marginTop="541dp"
         android:background="@drawable/progressbar2_card2_desafios"
         android:elevation="15dp"
@@ -281,9 +270,9 @@
         android:layout_width="209dp"
         android:layout_height="20dp"
         android:layout_marginTop="516dp"
-        android:layout_marginRight="98dp"
-        android:layout_marginLeft="87dp"
-        android:text="Pratique com 2 cordas"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="87dp"
+        android:text="@string/pratique_com_2_cordas"
         android:textAppearance="@style/progressBar1_Card2_Desafios"
         android:gravity="center_vertical|top"
         />
@@ -296,7 +285,7 @@
         android:layout_marginEnd="240dp"
         android:layout_marginStart="333dp"
         android:gravity="center_vertical"
-        android:text="3/3"
+        android:text="@string/txt_3_3_desafios"
         android:textAppearance="@style/txt2_ProgressBar1_Card2_Desafios"
         />
 
