@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="novembro_desafios">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#F4F4F4</item>
+    </style>
+
+    <style name="txt_Desafios_Desafios">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#F4F4F4</item>
+    </style>
+
+    <style name="progressBar5_Desafios">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#212C39</item>
+    </style>
+
+    <style name="txt_Desafios_DesafiosDoDia">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#F4F4F4</item>
+    </style>
+
+    <style name="progressBar1_Card2_Desafios">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#F4F4F4</item>
+    </style>
+
+    <style name="txt2_ProgressBar1_Card2_Desafios">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#42525E</item>
+    </style>
+</resources>

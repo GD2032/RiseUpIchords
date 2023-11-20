@@ -5,24 +5,311 @@
     android:layout_height="match_parent"
     tools:context=".DesafiosFragment"
     android:background="@color/dark_blue">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <!--COMEÇO DOS BOTÃO SUPERIORES -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_desafios_desafios"
         android:text="Desafios"
-        android:gravity="center"/>
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_desafios"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_conquistas_desafios"
+        android:text="Conquistas"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button2_desafios"
+        />
+    <!--FIM DOS BOTÃO SUPERIORES -->
 
     <View
-        android:id="@+id/background"
+        android:id="@+id/rectangle_Desafios"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/card_desafios"
+        />
+
+    <TextView
+        android:id="@+id/txtTittle_desafios"
+        android:layout_width="345.31dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="16dp"
+        android:text="Novembro"
+        android:textStyle="bold"
+        android:textAppearance="@style/novembro_desafios"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/txtSubTittle_desafios"
+        android:layout_width="343.21dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginStart="16dp"
+        android:text="Complete 30 desafios no mês de novembro para ganhar pontos no ranking e um emblema especial!"
+        android:textAppearance="@style/txt_Desafios_Desafios"
+        android:gravity="top"
+        />
+
+
+    <!-- DEPOIS VER A PIKA DA BARRA DE PROGRESSO PRA TORNAR ELA FUNCIONAL -->
+    <!-- COMEÇO DA BARRA DE PROGRESSO -->
+
+    <View
+        android:id="@+id/progressBar1_Desafios"
+        android:layout_width="347dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/progressbar1_desafios"/>
+
+    <View
+        android:id="@+id/progressBar2_Desafios"
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/progressbar2_desafios"/>
+
+    <ImageView
+        android:id="@+id/progressBar3_Desafios"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="317dp"
+        android:layout_marginTop="231dp"
+        android:elevation="15dp"
+        android:src="@drawable/progressbar3_desafios"/>
+
+    <ImageView
+        android:id="@+id/progressBar4_Desafios"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="231dp"
+        android:elevation="20dp"
+        android:src="@drawable/progressbar4_desafios"/>
+
+    <TextView
+        android:id="@+id/progressBar5_Desafios"
+        android:layout_width="345.31dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:text="6/30"
+        android:textAppearance="@style/progressBar5_Desafios"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!-- FIM DA BARRA DE PROGRESSO -->
+
+
+    <!--TOP BAR DESAFIOS-->
+    <View
+        android:id="@+id/topBar_Desafios"
         android:layout_width="match_parent"
         android:layout_height="62dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
         android:background="@drawable/bg_topbar"
-        android:elevation="20dp"
         />
+    <!--FIM DA TOP BAR DESAFIOS-->
+
+    <!--TEXTO ACIMA DO CARD2-->
+    <TextView
+        android:id="@+id/txtDesafiosDoDia_Desafios"
+        android:layout_width="328dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="16dp"
+        android:text="Desafios do dia"
+        android:textAppearance="@style/txt_Desafios_DesafiosDoDia"
+        android:gravity="top"
+        />
+    <!--FIM DO TEXTO ACIMA DO CARD2-->
+
+    <!-- COMEÇO DO CARD2 DA TELA DE DESAFIOS -->
+
+    <View
+        android:id="@+id/card2_Desafios"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/card2_desafios" />
+
+    <!--COMECO LINHA1 CARD2-->
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:src="@drawable/vetor_estrela_desafios"
+        android:layout_marginTop="398dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="298dp"
+        />
+
+    <View
+        android:id="@+id/progressBar1_Card2_Desafios"
+        android:layout_width="269dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="418dp"
+        android:background="@drawable/progressbar1_card2_desafios"
+        android:elevation="15dp"
+        />
+
+    <TextView
+        android:layout_width="209dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginLeft="87dp"
+        android:text="Consiga 5 estrelas na pratica"
+        android:textAppearance="@style/progressBar1_Card2_Desafios"
+        android:gravity="center_vertical|top"
+        />
+
+    <TextView
+        android:id="@+id/txt2_ProgressBar1_Card2_Desafios"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="393dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginLeft="333dp"
+        android:gravity="center_vertical"
+        android:text="0/2"
+        android:textAppearance="@style/txt2_ProgressBar1_Card2_Desafios"/>
+    <!--FIM DA LINHA1 CARD2-->
+
+    <!--COMEÇO DA LINHA2 CARD2-->
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:src="@drawable/vetor_tarefaconcluida_desafios"
+        android:layout_marginTop="458dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="298dp"
+        />
+
+    <View
+        android:id="@+id/progressBar2_Card2_Desafios"
+        android:layout_width="269dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="478dp"
+        android:background="@drawable/progressbar2_card2_desafios"
+        android:elevation="15dp"
+        />
+
+    <TextView
+        android:layout_width="209dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginLeft="87dp"
+        android:text="Complete um nivel"
+        android:textAppearance="@style/progressBar1_Card2_Desafios"
+        android:gravity="center_vertical|top"
+        />
+
+    <TextView
+        android:id="@+id/txt2_ProgressBar2_Card2_Desafios"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginLeft="333dp"
+        android:gravity="center_vertical"
+        android:text="1/2"
+        android:textAppearance="@style/txt2_ProgressBar1_Card2_Desafios"/>
+
+    <View
+        android:id="@+id/preenchimento1_card2_desafios"
+        android:layout_width="130.2dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="478dp"
+        android:background="@drawable/progressbar3_card2_desafios"
+        android:elevation="15dp"
+        />
+
+    <!--FIM DA LINHA2 CARD2-->
+
+    <!--COMEÇO DA LINHA3 CARD2-->
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:src="@drawable/vetor_musica_desafios"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="298dp"
+        />
+
+    <View
+        android:id="@+id/progressBar3_Card2_Desafios"
+        android:layout_width="269dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="541dp"
+        android:background="@drawable/progressbar2_card2_desafios"
+        android:elevation="15dp"
+        />
+
+    <TextView
+        android:layout_width="209dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginLeft="87dp"
+        android:text="Pratique com 2 cordas"
+        android:textAppearance="@style/progressBar1_Card2_Desafios"
+        android:gravity="center_vertical|top"
+        />
+
+    <TextView
+        android:id="@+id/txt2_ProgressBar3_Card2_Desafios"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginStart="333dp"
+        android:gravity="center_vertical"
+        android:text="3/3"
+        android:textAppearance="@style/txt2_ProgressBar1_Card2_Desafios"
+        />
+
+    <View
+        android:id="@+id/preenchimento2_card2_desafios"
+        android:layout_width="269dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="541dp"
+        android:background="@drawable/progressbar4_card2_desafios"
+        android:elevation="15dp"
+        />
+
+    <!--FIM DA LINHA3 CARD2-->
 
 </FrameLayout>
