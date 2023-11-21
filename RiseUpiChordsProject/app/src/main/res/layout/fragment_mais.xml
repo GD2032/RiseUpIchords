@@ -6,23 +6,216 @@
     tools:context=".MaisFragment"
     android:background="@color/dark_blue">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Mais"
-        android:gravity="center"/>
-
     <View
-        android:id="@+id/background"
+        android:id="@+id/Mais_topBar"
         android:layout_width="match_parent"
         android:layout_height="62dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
         android:background="@drawable/bg_topbar"
-        android:elevation="20dp"
         />
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center|top"
+        android:src="@drawable/vetor_logo_ichords"/>
+
+    <!--AQUI COMEÇA FOTO DE PERFIL + BOTÃO DE EDIÇÃO-->
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="111.5dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/vetor_borda_foto_perfil_mais"
+        />
+
+    <!-- DEPOIS VER A QUESTÃO DA CENTRALIZAÇÃO QUE TA ERRADA -->
+
+    <ImageView
+        android:layout_width="133.47dp"
+        android:layout_height="133.47dp"
+        android:layout_marginLeft="116.27dp"
+        android:layout_marginTop="84.77dp"
+        android:src="@drawable/vetor_fundo_foto_perfil_mais"
+        />
+    
+    <ImageView
+        android:id="@+id/fotoPerfil_MAIS"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/vetor_fotoperfil"/>
+
+    <ImageButton
+        android:layout_width="28.76dp"
+        android:layout_height="27.95dp"
+        android:layout_marginLeft="210.8dp"
+        android:layout_marginTop="194dp"
+        android:src="@drawable/vetor_editarperfil"/>
+
+    <!--AQUI TERMINA FOTO DE PERFIL + BOTÃO DE EDIÇÃO-->
+
+    <TextView
+        android:id="@+id/nome_MAIS"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:text="SquaadSeis"
+        android:textAppearance="@style/mainTxt_Mais"
+        android:layout_marginTop="239dp"
+        android:layout_marginStart="75dp"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <!--AQUI COMEÇA O PRIMEIRO CARD DA PAGINA MAIS -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/vetor_card1_mais" />
+    
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:text="Detalhes da conta"
+        android:layout_marginTop="318dp"
+        android:layout_marginStart="52dp"
+        android:gravity="center_vertical"
+        android:textAppearance="@style/txt_card_MAIS"
+        />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:text="Plano Premium"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="52dp"
+        android:gravity="center_vertical"
+        android:textAppearance="@style/txt_card_MAIS"
+        />
+    
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginStart="330dp"
+        android:src="@drawable/vetor_seta_mais"/>
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginStart="330dp"
+        android:src="@drawable/vetor_seta_mais"/>
+
+    <!--AQUI TERMINA O PRIMEIRO CARD DA PAGINA MAIS -->
+
+    <!--AQUI COMEÇA SEGUNDO CARD DA PAGINA MAIS-->
+
+    <ImageView
+        android:id="@+id/button2_card2_MAIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/vetor_card2_mais"
+        />
+
+    <TextView
+        android:id="@+id/modo_escuro"
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginStart="52dp"
+
+        android:text="Modo escuro"
+        android:textAppearance="@style/txt_card_MAIS"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginStart="52dp"
+
+        android:text="Modo canhoto"
+        android:textAppearance="@style/txt_card_MAIS"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginStart="52dp"
+
+        android:text="Suporte iChords"
+        android:textAppearance="@style/txt_card_MAIS"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginStart="52dp"
+
+        android:text="Privacidade e segurança"
+        android:textAppearance="@style/txt_card_MAIS"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="642dp"
+        android:layout_marginStart="52dp"
+        android:text="Deslogar e sair"
+        android:textStyle="bold"
+        android:textAppearance="@style/txt_card_MAIS"
+        android:gravity="center_vertical"
+        />
+    
+    <ImageButton
+        android:id="@+id/button_card2_MAIS"
+        android:layout_width="52dp"
+        android:layout_height="28dp"
+        android:src="@drawable/vetor_buttonon_mais"
+        android:layout_marginTop="454dp"
+        android:layout_marginStart="298dp"
+        android:gravity="center_vertical"/>
+
+    <ImageButton
+        android:layout_width="52dp"
+        android:layout_height="28dp"
+        android:src="@drawable/vetor_buttonoff_mais"
+        android:layout_marginTop="501dp"
+        android:layout_marginStart="298dp"
+        android:gravity="center_vertical"/>
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginStart="330dp"
+        android:src="@drawable/vetor_seta_mais"/>
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginStart="330dp"
+        android:src="@drawable/vetor_seta_mais"/>
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="647dp"
+        android:layout_marginStart="330dp"
+        android:src="@drawable/vetor_seta_mais"/>
+
+
 
 </FrameLayout>
