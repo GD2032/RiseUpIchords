@@ -23,7 +23,7 @@
         app:layout_constraintBottom_toBottomOf="@id/Mais_topBar"
         app:layout_constraintStart_toStartOf="@id/Mais_topBar"
         android:layout_gravity="center|top"
-        android:src="@drawable/vetor_logo_ichords"/>
+        android:src="@drawable/img_logo_ichords"/>
 
     <TextView
         android:id="@+id/selecione_u"
